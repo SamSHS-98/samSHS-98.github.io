@@ -13,6 +13,23 @@
   </head>
 
   <body>
+  s
+  <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="2108578856026274">
+</div>
+
     <!--Navigation bar-->
     <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark navbar-fluid">
     <div class="container">
@@ -24,6 +41,7 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#">Home</a>
             <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#project">My Project</a>
             <a class="nav-item nav-link" href="#gallery">My Gallery</a>
           </div>
         </div>
@@ -40,6 +58,9 @@
       <div class="container">
           <h1 class="display-2">Welcome to Sam's Web</h1>
         <p class="lead">Hello there! Glad to see you...</p>
+           <div class="text-center">
+      <p>Email: hersheng98@gmail.com</p><p>h/p: +60138103379</p>
+    </div>
       </div>
     </div>
     
@@ -58,13 +79,13 @@
                       <div class="card-body">
                         <h5 class="card-title">Hello There!!</h5>
                         <p class="card-text">Welcome to Sam's Web. This is my personal website.</p>
-                        <a href="#Mars" class="btn btn-primary">Click Here</a>
+                        <a href="#" class="btn btn-primary">Click Here</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-sm-5">
                     <div class="card bg-dark text-white my-2">
-                      <img src="https://drive.google.com/uc?id=1coVdHof74a4piJvL7UGCA-xE-ZVA-cLj" class="card-iamge-fluid"/>
+                      <!--img src="https://drive.google.com/uc?id=1coVdHof74a4piJvL7UGCA-xE-ZVA-cLj" style="height:100px" class="card-img-fluid"/-->
                       <div class="card-body">
                         <h5 class="card-title">My Resume</h5>
                         <p class="card-text">If you would like to read the resume to know more about me...</p>
@@ -148,10 +169,10 @@
         <a class="nav-link active" href="#Mars" data-toggle="tab">Introduction</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Jupiter" data-toggle="tab">Hello</a>
+        <a class="nav-link" href="#Jupiter" data-toggle="tab">My Belief</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Saturn" data-toggle="tab">More</a>
+        <a class="nav-link" href="#Saturn" data-toggle="tab">My Hobby</a>
       </li> 
       <li class="nav-item">
         <a class="nav-link" href="#Neptune" data-toggle="tab">Bye</a>
@@ -164,36 +185,38 @@
       <div class="tab-pane active" id="Mars">
         <div class="container">
           <h6>Nice to meet you</h6>
-          <p>Thank you for visiting my website. This is my first personal website and I would like to introduce myself to you. </p>    
+          <p>Thank you for visiting my website. This is my first personal website and I would like to introduce myself to you. My name is Sii Her Sheng and I am 20 years old. Recently, I had just complete my Monash University Foundation Year and was planning for my degree. I plan to take computing for my degree and also involve in this field for my future career. </p>    
        </div>
       </div>
 
       <div class="tab-pane" id="Jupiter">
        <div class="container">
-          <h6>Hello humans! I am Sam from the Jupiter!!</h6>
-          <p>blablablab lablablab lablablablablab ablablablabl ablablablablabl abla blablablablablab l a b labl ablabla blablabl ablablablablab ablablablabl ablablablablablablabl aba blablablabla blablablablablabl ablablablablablabla blablablablabl ablablablabl ablablabl ablablabl ablablablablabl abla bla</p>
+          <h6>My belief</h6>
+          <p>Humans technology are evolving at a fast pace and digital environment are common nowadays. In order to bring the future of Computing to a greater height, I belief that more young people need to be train and those who are willing to provide their skills have to be given chances to prove their worthiness. Parents and schools should encourage these youngsters to ...and provide them help and advise for them to futher develop their skills. Since technology are always improving and evolving, I believe that we need to have a willing heart to learn new things and accept others opinion and critisism in order to polish our skills. Knowledge are endless, there are no limit to how much we can learn but how much we are willing to learn. I believe that if we have the right mindset and are humble to learn, we are going to be useful for future development of technology.</p>
         </div>
       </div>
 
       <div class="tab-pane" id="Saturn">
         <div class="container">
-          <h6>Hello humans! I am Sam from the Saturn!!</h6>
-          <p>blablablab lablablab lablablablablab ablablablabl ablablablablabl abla blablablablablab l a b labl ablabla blablabl ablablablablab ablablablabl ablablablablablablabl aba blablablabla blablablablablabl ablablablablablabla blablablablabl ablablablabl ablablabl ablablabl ablablablablabl abla blaa</p>
+          <h6>My hobby/Interest</h6>
+          <p>I like sports a lot. Usually I will spend my evening time jogging, or playing basketball with my friends. Sometimes during holiday, we may go for football as well. I also enjoy spending time hanging out with my friends, talking about our campus life and some fun events that happened to us. I also enjoy spending time with my family, sitting down together chatting and sometime playing board games together. When I decide to spend my leisure time alone, I like to spend my time watching YouTube. Usually I will watch some videos made by different youtubers and learn different styles of video editting since I am interested in stuff like this. I also watch educational videos such as videos that teach some computing skills. Overall, I am interested in many things and these activities kept my life meaningful and fun.</p>
         </div>
       </div>
 
       <div class="tab-pane" id="Neptune">
         <div class="container">
-          <h6>Hello humans! I am Sam from the Neptune!!</h6>
-          <p>blablablab lablablab lablablablablab ablablablabl ablablablablabl abla blablablablablab l a b labl ablabla blablabl ablablablablab ablablablabl ablablablablablablabl aba blablablabla blablablablablabl ablablablablablabla blablablablabl ablablablabl ablablabl ablablabl ablablablablabl abla bla</p>
+          <h6>My nothing</h6>
+          <p>Just nothing for now XD</p>
       </div>
       </div>
     </div>
     
-    
-    <div class="text-center display-3 py-5">My Gallery</div>
+    <div class="text-center display-3 py-5" id="project">My Project</div>
+    <p style="text-align:center" class="display-4 text-danger"><img src="https://cdn2.iconfinder.com/data/icons/freecns-cumulus/32/519791-101_Warning-512.png" style="height:100px"/>Under Construction</p>
+
+    <div class="text-center display-3 py-5"  id="gallery">My Gallery</div>
     <div class="container-fluid">
-    <div class="row justify-content-sm-center" id="gallery">
+    <div class="row justify-content-sm-center">
     <div class="card col-sm-5">
       <div class="card-body">
         <!--insert some image-->
@@ -233,12 +256,6 @@
 
 
     <hr>
-
-    <div class="text-center">
-      <p>Contact me</p>
-      <a herf="">Email: hersheng98@gmail.com</p>
-      <p>h/p: +60138103379</p>
-    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
